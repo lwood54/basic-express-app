@@ -1,0 +1,19 @@
+{
+  "name": "express-react-basic",
+  "version": "1.0.0",
+  "description": "setting up basic express-react-webpack-babel app",
+  "main": "server.js",
+  "repository": "https://github.com/lwood54/boilerplate-Express-React-Webpack-Babel.git",
+  "author": "Logan Wood <lwood3499@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.15.1",
+    "request": "^2.83.0"
+  }
+}
